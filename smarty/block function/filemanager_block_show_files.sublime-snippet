@@ -1,0 +1,16 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='filemanager' block='show_files'
+	limit=${1:10}
+	div='${2:most_popular}'
+	merchant_id=${3:10}
+	folder_status='${4:published}'
+	template_name="${5:block_files}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_filemanager</tabTrigger>    
+    <scope>text.html</scope>    
+    <description>Show files - coreDNA</description>
+</snippet>

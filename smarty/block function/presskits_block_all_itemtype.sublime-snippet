@@ -1,0 +1,14 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='presskits' block='all_itemtype'
+	pkid=${1:10},
+	search_order='${2:pkit_order}',
+	template_name="${3:itemtype}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_presskits</tabTrigger>
+    <scope>text.html</scope>
+    <description>All item type - coreDNA</description>
+</snippet>

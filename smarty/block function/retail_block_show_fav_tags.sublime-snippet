@@ -1,0 +1,15 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='retail' block='show_fav_tags'
+    template_name="${1:tags}"
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_retail</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Show Fav Tags - coreDNA</description>
+</snippet>

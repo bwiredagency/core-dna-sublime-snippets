@@ -1,0 +1,14 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='contacts' block='random_profile'
+	s_order="${1:cp_upid DESC}"
+	id="${2:323}"
+	template_name="${3:block_profile_view}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_contact</tabTrigger>
+    <scope>text.html</scope>
+    <description>Random profile - coreDNA</description>
+</snippet>

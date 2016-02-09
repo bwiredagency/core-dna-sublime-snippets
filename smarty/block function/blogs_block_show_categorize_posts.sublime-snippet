@@ -1,0 +1,14 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='blogs' block='show_categorize_posts'
+	cid=${1:123}
+	skin=${2:1}
+	template_name=${3:mostrecent}
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_blogs</tabTrigger>
+    <scope>text.html</scope>
+    <description>Show categorize posts - coreDNA</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='contacts' block='show_profiles'
+	search_order="${1:cp_upid DESC}"
+	hide_emails="${2:test1@test.com,test2@test.com}"
+	template_name="${3:showprofiles}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_contact</tabTrigger>
+    <scope>text.html</scope>
+    <description>Show profiles - coreDNA</description>
+</snippet>

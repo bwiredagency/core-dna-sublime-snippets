@@ -1,0 +1,25 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='sitesearch' block='search'
+    form_id='${1:mysearch}'
+    form_name='${2:mysearch}'
+    search_id='${3:3}'
+    search_name='${4:pages}'
+    match='${5:advanced}'
+    index='${6:pages,news,help}'
+    per_page='${7:10}'
+    single_result='${8:1}'
+    merchant='${9:42}'
+    template='${10:search.html}'
+    results_template='${11:results.html}'
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_sitesearch</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Search - coreDNA</description>
+</snippet>

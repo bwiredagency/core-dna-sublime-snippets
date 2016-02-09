@@ -1,0 +1,14 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='help' block='show_cat_helps' 
+	helpcatID='${1:123}' 
+	limit='${2:10}' 
+	template_name="${3:block_helps}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_help</tabTrigger>    
+    <scope>text.html</scope>    
+    <description>Show cat helps - coreDNA</description>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='retail' block='comments'
+    merchant_id=${1:\$retailer.id}
+    per_page=${2:5}
+    search_order="${3:com_id DESC}"
+    template_name="${4:block_show_comment}"
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_retail</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Comments - coreDNA</description>
+</snippet>

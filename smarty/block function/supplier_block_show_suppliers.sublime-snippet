@@ -1,0 +1,21 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='supplier' block='show_suppliers'
+	pagination='${1:true}'
+	start=${2:0}
+	relate_products='${3:yes}'
+	s_field='${4:s.supp_login, s.supp_lastname, s.supp_firstname}'
+	s_order='${5:asc}'
+	no_template=${6:1}
+	template_name="${7:show_suppliers}"
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_supplier</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Show Suppliers - coreDNA</description>
+</snippet>

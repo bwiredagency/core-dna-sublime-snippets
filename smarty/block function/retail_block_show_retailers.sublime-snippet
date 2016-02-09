@@ -1,0 +1,18 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='retail' block='show_retailers'
+    start=${1:1}
+    per_page=${2:3}
+    order="${3:merchant_index DESC}"
+    template_name="${4:block_retailers}"
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_retail</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Show Retailers - coreDNA</description>
+</snippet>

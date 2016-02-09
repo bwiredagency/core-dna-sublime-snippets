@@ -1,0 +1,12 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='filemanager' block='show_tree'
+	template_name="${1:tree}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_filemanager</tabTrigger>    
+    <scope>text.html</scope>    
+    <description>Show tree - coreDNA</description>
+</snippet>

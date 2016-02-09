@@ -1,0 +1,21 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='sitesearch' block='search_terms'
+    group_id='${1:123}'
+    group_name='${2:main}'
+    search_id='${3:321}'
+    search_name='${4:pages}'
+    size='${5:10}'
+    sort='${6:term}'
+    classmap='${7:0:small,10:medium,20:large,30:huge}'
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_sitesearch</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Search Terms - coreDNA</description>
+</snippet>

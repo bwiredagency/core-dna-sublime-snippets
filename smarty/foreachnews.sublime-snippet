@@ -1,0 +1,15 @@
+<snippet>
+    <content>
+<![CDATA[
+<{foreach name=newsloop item=newsItem from=\$news}>
+    ${1:<!--content-->}
+<{/foreach}>
+]]>
+	</content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>foreachnews</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>coreDNA</description>
+</snippet>

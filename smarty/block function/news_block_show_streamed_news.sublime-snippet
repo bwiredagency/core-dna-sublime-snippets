@@ -1,0 +1,21 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='news' block='show_streamed_news'
+    category="${1:news_cat1}"
+    cid=${2:42}
+    nid=${3:24}
+    max=${4:3}
+    start=${5:0}
+    s_order="${6:timestamp DESC}"
+    template_name="${7:streamed_news}"
+}>
+]]>
+	</content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_news</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Show Streamed News - coreDNA</description>
+</snippet>

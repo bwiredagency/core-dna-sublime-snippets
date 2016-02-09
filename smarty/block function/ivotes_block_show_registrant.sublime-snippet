@@ -1,0 +1,15 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='ivotes' block='show_registrant'
+	start=${1:1}
+	per_page=${2:4}
+	search_order ='${3:registrant_id DESC}'
+	template_name='${4:block_show_registrant}'
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_ivotes</tabTrigger>    
+    <scope>text.html</scope>    
+    <description>Show registrant - coreDNA</description>
+</snippet>

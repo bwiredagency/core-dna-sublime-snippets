@@ -1,0 +1,18 @@
+
+<snippet>
+    <content>
+<![CDATA[
+<{show_block 
+    module='adlogic' 
+    block='show_worktype' 
+    template_name='show_worktype'
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_adlogic</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Worktype - coreDNA</description>
+</snippet>

@@ -1,0 +1,41 @@
+<snippet>
+    <content>
+<![CDATA[
+<{assign var=\$title value=\$title|stripslashes|replace:'&':'&amp;'}>
+<{if \$action eq 'news'}>
+    <{if \$nid eq ''}>
+        <{assign var="site_title" value="News - `\$smarty.session.centre_name`"}>
+    <{else}>
+        <{assign var="site_title" value="`\$title` - `\$smarty.session.centre_name`"}>
+    <{/if}>
+<{elseif \$action eq 'help'}>
+    <{if \$helpcat->getName()}>
+        <{assign var="site_title" value="`\$helpcat->getName()` - Help - `\$smarty.session.centre_name`"}>
+    <{else}>
+        <{assign var="site_title" value="Help - `\$smarty.session.centre_name`"}>
+    <{/if}>
+<{elseif \$action eq 'register' or \$action eq 'prodcatalogue'}>
+    <{assign var="site_title" value="`\$title` `\$smarty.session.centre_name`"}>
+<{else}>
+    <{assign var="site_title" value="`\$title` - `\$smarty.session.centre_name`"}>
+<{/if}>
+
+<title>
+    <{\$site_title}>
+</title>
+
+<meta property="og:title" content="<{\$site_title}>" />
+<meta property="og:site_name" content="<{\$smarty.session.centre_name}>" />
+<meta property="og:description" content="<{\$page->getMetaDescription()|replace:"&":"&amp;"}>" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://<{\$smarty.session.centre_host}><{\$smarty.server.REQUEST_URI|replace:'&':'&amp;'}>" />
+<meta property="og:image" content="http://<{\$smarty.session.centre_host}>/template_images/logo.png" />
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>sitetitle</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>coreDNA</description>
+</snippet>

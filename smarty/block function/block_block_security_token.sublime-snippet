@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+<{security_token prefix='security_token_${1:the_token}'}>
+]]>
+	</content>  
+    <tabTrigger>show_block_block</tabTrigger>
+    <scope>text.html</scope>
+    <description>Security token - coreDNA</description>
+</snippet>

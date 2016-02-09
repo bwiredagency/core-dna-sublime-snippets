@@ -1,0 +1,20 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='prodcatalogue' block='show_reviews'
+    no_pagination=${1:0}
+    product_id=${2:1}
+    parent_id=${3:0}
+    order="${4:prev_id DESC}"
+    max=${5:5}
+    template_name=${6:block_show_reviews}"
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_prodcatalogue</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Show Reviews - coreDNA</description>
+</snippet>

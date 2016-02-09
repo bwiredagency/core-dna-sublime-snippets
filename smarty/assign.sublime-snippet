@@ -1,0 +1,13 @@
+<snippet>
+    <content>
+<![CDATA[
+<{assign var=${1:variable_name} value=${2:value} }>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>assign</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>$assign - coreDNA</description>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='filemanager' block='show_files_retailer'
+	merchant_id=${1:\$retailer.id}
+	folder_status="${2:published}"
+	search_order="${3:name ASC}"
+	keywords="${4:specials}"
+	template_name="${5:block_files_retailer}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_filemanager</tabTrigger>    
+    <scope>text.html</scope>    
+    <description>Show files retailer - coreDNA</description>
+</snippet>

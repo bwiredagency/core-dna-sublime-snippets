@@ -1,0 +1,19 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='promotions' block='homepromotions'
+    max=${1:4}
+    category='${2:category_name}'
+    catid=${3:5}
+    merchant_id=${4:123}
+    template_name="${5:homepromotions}"
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_promotions</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Home Promotions - coreDNA</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='request' block='check_requests'
+    varient_id=${1:10}
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_request</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Check Requests - coreDNA</description>
+</snippet>

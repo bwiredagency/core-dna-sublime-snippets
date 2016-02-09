@@ -1,0 +1,19 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='filemanager' block='show_files_list'
+	start=${1:0}
+	limit=${2:10}
+	sort='${3:date}'
+	order='${4:desc}'
+	category=${5:12}
+	folder=${6:10}
+	resourcetype_id=${7:4}
+	template_name="${8:block_files}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_filemanager</tabTrigger>    
+    <scope>text.html</scope>    
+    <description>Show files list - coreDNA</description>
+</snippet>

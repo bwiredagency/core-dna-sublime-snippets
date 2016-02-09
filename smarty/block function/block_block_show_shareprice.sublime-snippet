@@ -1,0 +1,17 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='block' block='show_shareprice'
+	provider='${1:asx}'
+	code='${2:BWI}'
+	format='${3:html}'
+	timestamp_fmt='${4:%d/%m/%Y %H:%M%P}'
+	template_name='${5:shareprice.html}'
+	no_cache='${6:1}'
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_block</tabTrigger>
+    <scope>text.html</scope>
+    <description>Show shareprice- coreDNA</description>
+</snippet>

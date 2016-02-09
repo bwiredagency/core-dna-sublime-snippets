@@ -1,0 +1,15 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='imagegallery' block='show_fav_tags'
+	start=${1:1}
+	limit=${2:5}
+	search_order="${3:ssid ASC}"
+	template_name=${4:tags}
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_imagegallery</tabTrigger>    
+    <scope>text.html</scope>    
+    <description>Show fave tags - coreDNA</description>
+</snippet>

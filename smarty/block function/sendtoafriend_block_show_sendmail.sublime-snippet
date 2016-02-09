@@ -1,0 +1,20 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='sendtoafriend' block='show_sendmail'
+    form_template='${1:form_default}'
+    email_template='${2:email_default}'
+    import_contacts=${3:1}
+    sender_email="${4:basheer@coredna.com.au}"
+    sender_name="${5:coreDNA Feedback}"
+    email_subject="${6:Feedback}"
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_sendtoafriend</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Show Send Mail - coreDNA</description>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='request' block='show_country'
+	postcode=${1:810}
+	locality='${2:ALAWA}'
+	country='${3:AUS}'
+	locality_country='${4:AUS}'
+	order=${5:1}
+	block_template_name="${6:block_show_country}"
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_request</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Show Country - coreDNA</description>
+</snippet>

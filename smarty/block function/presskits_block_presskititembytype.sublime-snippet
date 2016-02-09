@@ -1,0 +1,13 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='presskits' block='presskititembytype'
+	pkid=${1:10},
+	template_name="${2:presskititembytype}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_presskits</tabTrigger>
+    <scope>text.html</scope>
+    <description>Item by type - coreDNA</description>
+</snippet>

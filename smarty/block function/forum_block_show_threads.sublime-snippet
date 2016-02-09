@@ -1,0 +1,12 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='forum' block='show_threads'
+	template_name="${1:mostrecent_thread}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_forum</tabTrigger>    
+    <scope>text.html</scope>    
+    <description>Show threads - coreDNA</description>
+</snippet>

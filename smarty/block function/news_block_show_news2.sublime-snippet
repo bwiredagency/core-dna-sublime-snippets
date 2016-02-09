@@ -1,0 +1,25 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='news' block='show_news2'
+	cid=${1:1}
+	max=${2:10}
+	merchant_id=${3:10}
+	product_id=${4:18}
+	no_cache=${5:1}
+	field_priority1_name='${6:news_heading}'
+	field_priority1_value='${7:testing}'
+	field_priority2_name='${8:news_link}'
+	field_priority2_value='${9:google.com}'
+	s_order="${10:timestamp DESC}"
+	template_name="${11:mostrecent}"
+}>
+]]>
+	</content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_news</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Show News 2 - coreDNA</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='opinion' block='main'}>
+]]>
+	</content>  
+    <tabTrigger>show_block_opinion</tabTrigger>
+    <scope>text.html</scope>
+    <description>main - coreDNA</description>
+</snippet>

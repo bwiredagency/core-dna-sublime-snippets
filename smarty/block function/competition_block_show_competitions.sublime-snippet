@@ -1,0 +1,14 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='competition' block='show_competitions'
+	start=${1:1}
+	per_page=${2:3}
+	template_name="${3:competition}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_competition</tabTrigger>
+    <scope>text.html</scope>
+    <description>Show competitions - coreDNA</description>
+</snippet>

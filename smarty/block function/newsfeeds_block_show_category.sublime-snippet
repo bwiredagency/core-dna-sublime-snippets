@@ -1,0 +1,16 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='newsfeeds' block='show_category'
+	start=${1:0},
+	per_page=${2:5},
+	cat_id=${3:23},
+	search_order='${4:nc_cat_id ASC}',
+	template_name="${5:block_category}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_newsfeeds</tabTrigger>
+    <scope>text.html</scope>
+    <description>Show category - coreDNA</description>
+</snippet>

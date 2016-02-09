@@ -1,0 +1,17 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='prodcatalogue' block='advanced_search'
+	merchant_id=${1:10}
+	rename=${2:1}
+	template_name="${3:block_advanced_search}"
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_prodcatalogue</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Advanced Search - coreDNA</description>
+</snippet>

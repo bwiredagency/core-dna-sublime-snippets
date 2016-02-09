@@ -1,0 +1,12 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='linkdir' block='popular_searches' 
+	template_name="${1:most_popular_searches}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_linkdir</tabTrigger>    
+    <scope>text.html</scope>    
+    <description>Popular searches - coreDNA</description>
+</snippet>

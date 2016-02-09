@@ -1,0 +1,16 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='catalogue' block='show_products'
+	orderby='${1:product_id}'
+	ordersort='${2:desc}'
+	max=${3:10}
+	merchant_id=${4:11}
+	template_name="${5:block_products}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_catalogue</tabTrigger>
+    <scope>text.html</scope>
+    <description>Show products - coreDNA</description>
+</snippet>

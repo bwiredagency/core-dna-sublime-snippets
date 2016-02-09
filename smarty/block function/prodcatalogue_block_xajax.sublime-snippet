@@ -1,0 +1,13 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='prodcatalogue' block='xajax'}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_prodcatalogue</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>xajax - coreDNA</description>
+</snippet>

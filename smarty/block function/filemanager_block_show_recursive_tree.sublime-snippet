@@ -1,0 +1,14 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='filemanager' block='show_recursive_tree'
+	cur_folder_id=${1:10}
+	folder_id=${2:10}
+	template_name="${3:block_recursive_tree}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_filemanager</tabTrigger>    
+    <scope>text.html</scope>    
+    <description>Show recursive tree - coreDNA</description>
+</snippet>

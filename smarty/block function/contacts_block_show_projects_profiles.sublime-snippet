@@ -1,0 +1,13 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='contacts' block='show_projects_profiles'
+	search_order="${1:user_firstname DESC}"
+	template_name="${2:block_show_projects_profiles}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_contact</tabTrigger>
+    <scope>text.html</scope>
+    <description>Show projects profiles - coreDNA</description>
+</snippet>

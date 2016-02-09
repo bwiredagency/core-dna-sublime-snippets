@@ -1,0 +1,13 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='presskits' block='rate_image'
+	presskit_id=${1:20}
+	template_name="${2:image_rating}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_presskits</tabTrigger>
+    <scope>text.html</scope>
+    <description>Rate image - coreDNA</description>
+</snippet>

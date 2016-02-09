@@ -1,0 +1,15 @@
+<snippet>
+    <content>
+<![CDATA[
+<a href="<{if \$newsItem.news_url_name}><{\$newsItem.news_url_name}><{else}><{\$newsItem.news_id}><{/if}>">
+    ${1:<!--content-->}
+</a>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>news.news_link</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>coreDNA</description>
+</snippet>

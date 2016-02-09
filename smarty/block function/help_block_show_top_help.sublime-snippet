@@ -1,0 +1,12 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='help' block='show_top_help' 
+	template_name="${1:top_help}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_help</tabTrigger>    
+    <scope>text.html</scope>    
+    <description>Show top help - coreDNA</description>
+</snippet>

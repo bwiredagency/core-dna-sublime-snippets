@@ -1,0 +1,17 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='page' block='get_page' page_status='published' check_access='true'
+	page_id=${1:1234}
+	template_name='${4:block_page}'
+}>
+<{if \$apage|is_object}>
+	<{\$apage->getName()}>
+	<{\$apage->getContent()}>
+<{/if}>
+]]>
+	</content>
+    <tabTrigger>show_block_page</tabTrigger>
+    <scope>text.html</scope>
+    <description>Get page - coreDNA</description>
+</snippet>

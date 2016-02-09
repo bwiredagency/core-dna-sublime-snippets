@@ -1,0 +1,23 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='prodcatalogue' block='show_products'
+    merchant_id=${1:10}
+    category_id=${2:3}
+    max=${3:12}
+    showtype='${4:New}'
+    order='${5:p.pprod_id DESC}'
+    date_range='${6:today}'
+    template_var=${7:1}
+    no_template=${8:1}
+    template_name="${9:show_products}"
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_prodcatalogue</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Show Products - coreDNA</description>
+</snippet>

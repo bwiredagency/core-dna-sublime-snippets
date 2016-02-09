@@ -1,0 +1,27 @@
+<snippet>
+    <content>
+<![CDATA[
+<title>
+    <{if \$action eq 'news'}>
+        <{if \$nid eq ''}>
+            News - <{\$smarty.session.centre_name}>
+        <{else}>
+            <{\$title|stripslashes|replace:"&":"&amp;"}> - <{\$smarty.session.centre_name}>
+        <{/if}>
+    <{elseif \$action eq 'help'}>
+        <{if \$helpcat->getName()}><{\$helpcat->getName()}> - <{/if}> Help - <{\$smarty.session.centre_name}>
+    <{elseif \$action eq 'register' or \$action eq 'prodcatalogue'}>
+        <{\$title|stripslashes|replace:"&":"&amp;"}> <{\$smarty.session.centre_name}>
+    <{else}>
+        <{\$title|stripslashes|replace:"&":"&amp;"}> - <{\$smarty.session.centre_name}>
+    <{/if}>
+</title>
+]]>
+	</content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>title</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>coreDNA</description>
+</snippet>

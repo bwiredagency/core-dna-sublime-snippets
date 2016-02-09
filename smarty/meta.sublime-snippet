@@ -1,0 +1,17 @@
+<snippet>
+    <content>
+<![CDATA[
+<meta name="author" content="<{\$smarty.session.centre_name}>" />
+<meta name="keywords" content="<{\$page->getMetaKeywords()|replace:"&":"&amp;"}>" />
+<meta name="description" content="<{\$page->getMetaDescription()|replace:"&":"&amp;"}>" />
+<meta name="robots" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+]]>
+	</content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>meta</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>coreDNA</description>
+</snippet>

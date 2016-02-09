@@ -1,0 +1,13 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module="membership" block="show_user_membership"
+	user_id=${1:\$user->getID()}
+	template_name="${2:block_user_membership}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_membership</tabTrigger>
+    <scope>text.html</scope>
+    <description>Show user membership - coreDNA</description>
+</snippet>

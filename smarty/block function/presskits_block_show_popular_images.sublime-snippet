@@ -1,0 +1,17 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='presskits' block='show_popular_images'
+	merchant_id=${1:10}
+	presskit_id=${2:10}
+	album_order=${3:2}
+	per_page=${3:10}
+	template_name="${4:mostpopular}"
+	param="${5:download}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_presskits</tabTrigger>
+    <scope>text.html</scope>
+    <description>Show popular images - coreDNA</description>
+</snippet>

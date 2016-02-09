@@ -1,0 +1,21 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='prodcatalogue' block='show_category'
+    category_id=${1:3}
+    parent_id=${2:2}
+    rename=${3:1}
+    order="${4:prev_id DESC}"
+    start=${5:0}
+    max=${6:5}
+    template_name="block_show_category"
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_prodcatalogue</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Show Category - coreDNA</description>
+</snippet>

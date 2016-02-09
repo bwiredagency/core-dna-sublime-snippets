@@ -1,0 +1,16 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='retail' block='brand_select'
+    search_order="${1:category_id DESC}"
+    template_name="${2:brands}"
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_retail</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Brand Select - coreDNA</description>
+</snippet>

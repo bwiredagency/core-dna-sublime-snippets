@@ -1,0 +1,15 @@
+<snippet>
+    <content>
+<![CDATA[
+<{section name='${1:item}' loop=${2:\$loop}}>
+	${3:<!--content-->}
+<{/section}>
+]]>
+	</content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>section</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>coreDNA</description>
+</snippet>

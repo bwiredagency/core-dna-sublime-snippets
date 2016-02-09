@@ -1,0 +1,18 @@
+
+<snippet>
+    <content>
+<![CDATA[
+<{show_block 
+    module='adlogic' 
+    block='show_salary' 
+    template_name='${1:show_salary}'
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_adlogic</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Salary - coreDNA</description>
+</snippet>

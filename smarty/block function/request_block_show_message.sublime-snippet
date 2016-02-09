@@ -1,0 +1,21 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='request' block='show_message'
+	module_table='${1:requests}'
+	user_table='${2:pubuser}'
+	mess_id=${3:10}
+	mess_userID=${4:12}
+	mess_moduleID=${5:36296}
+	owned=${6:1}
+	template_name="${7:mostrecent}"
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_request</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Show Message - coreDNA</description>
+</snippet>

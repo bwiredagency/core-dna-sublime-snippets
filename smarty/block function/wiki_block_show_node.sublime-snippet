@@ -1,0 +1,17 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='wiki' block='show_node'
+    wiki='${1:wiki_name}'
+    node_name='${2:node_name}'
+    template_name='${3:block_node.html}'
+}>
+]]>
+	</content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_wiki</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Show Node - coreDNA</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='competition' block='xajax'}>
+]]>
+	</content>  
+    <tabTrigger>show_block_competition</tabTrigger>
+    <scope>text.html</scope>
+    <description>xajax - coreDNA</description>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='imagegallery' block='show_popular_images'
+	per_page=${1:4}
+	merchant_id=${2:1010}
+	album_id=${3:22}
+	album_order="${4:1}"
+	template_name="${5:mostpopular}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_imagegallery</tabTrigger>    
+    <scope>text.html</scope>    
+    <description>Show popular images - coreDNA</description>
+</snippet>

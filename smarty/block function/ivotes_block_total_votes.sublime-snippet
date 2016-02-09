@@ -1,0 +1,12 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='ivotes' block='total_votes' 
+	template_name='${1:block_total_votes}'
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_ivotes</tabTrigger>    
+    <scope>text.html</scope>    
+    <description>Total votes - coreDNA</description>
+</snippet>

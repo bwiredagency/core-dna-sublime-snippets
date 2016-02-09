@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+if (\$_GET['display_error'] == 1) {
+    ini_set('display_errors', 1);
+    error_reporting(E_ALL ^ E_NOTICE);
+    include("inc.Settings.php");
+    \$settings->_dbDebug = true;
+} else {
+    include("inc.Settings.php");
+}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>display_error</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>coreDNA</description>
+</snippet>

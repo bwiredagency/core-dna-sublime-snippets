@@ -1,0 +1,17 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='linkdir' block='show_articles'
+	cid=${1:5}
+	tid=${2:3}
+	status=${3:2}
+	sfield="${4:order}"
+	sorder="${5:asc}"
+	template_name="${6:block_show_articles}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_linkdir</tabTrigger>    
+    <scope>text.html</scope>    
+    <description>Show articles - coreDNA</description>
+</snippet>

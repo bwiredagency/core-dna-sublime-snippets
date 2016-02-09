@@ -1,0 +1,15 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='brands' block='show_brands'
+	start=${1:1}
+	per_page=${2:3}
+	s_order="${3:brand_name DESC}"
+	template_name="${4:brands}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_brands</tabTrigger>
+    <scope>text.html</scope>
+    <description>Show brands - coreDNA</description>
+</snippet>

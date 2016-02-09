@@ -1,0 +1,20 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='request' block='show_requests'
+	start=${1:0}
+	per_page=${2:10}
+	request_status='${3:open}'
+	rvid=${4:6}
+	search_order='${5:timestamp DESC}'
+	template_name="${6:block_show_requests}"
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_request</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Show Requests - coreDNA</description>
+</snippet>

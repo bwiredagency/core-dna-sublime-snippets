@@ -1,0 +1,28 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='prodcatalogue' block='show_search_products'
+    merchant_id=${1:10}
+    per_page=${2:10}
+    s_field='${3:index}'
+    s_order='${4:asc}'
+    supplier_ids='${5:1,10,2}'
+    category_ids='${6:1,2,3}'
+    brand=${7:12}
+    minprice=${8:100}
+    maxprice=${9:500}
+    searchstring='${10:prod}'
+    start_date='${11:20-12-2010}'
+    end_date='${12:20-12-2012}'
+    no_template=${13:1}
+    template_name="${14:block_show_search_products}"
+}>
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_prodcatalogue</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Show Search Products - coreDNA</description>
+</snippet>

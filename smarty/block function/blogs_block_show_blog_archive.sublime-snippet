@@ -1,0 +1,14 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module="blogs" block="show_blog_archive"
+	bid=${1:67}
+	skin=${2:1}
+	template_name="${3:archive}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_blogs</tabTrigger>
+    <scope>text.html</scope>
+    <description>Show blog archive - coreDNA</description>
+</snippet>

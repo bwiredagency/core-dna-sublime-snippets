@@ -1,0 +1,16 @@
+<snippet>
+    <content>
+<![CDATA[
+<${1:div}>
+    <{foreach name='${2:menu_item}' item='${2:menu_item}' from=\$menu[\$${3:rootID}]}>
+        <a href="/<{\$${2:menu_item}.url_name|default:\$${2:menu_item}.id}>"><{\$${2:menu_item}.name}></a>
+    <{/foreach}>
+</${1:div}>
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>menu &lt;a&gt;</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>coreDNA</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='blogs' block='show_fav_tags'
+	template='${1:tags}'
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_blogs</tabTrigger>
+    <scope>text.html</scope>
+    <description>Show fave tags - coreDNA</description>
+</snippet>

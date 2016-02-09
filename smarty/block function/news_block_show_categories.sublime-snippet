@@ -1,0 +1,19 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='news' block='show_categories'
+	start=${1:1}
+	per_page=${2:3}
+	search_order="${3:nc_cname DESC}"
+	no_template=${4:1}
+	template_name="${5:categories}"
+}>
+]]>
+	</content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>show_block_news</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Show Categories - coreDNA</description>
+</snippet>

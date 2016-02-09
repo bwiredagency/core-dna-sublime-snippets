@@ -1,0 +1,19 @@
+<snippet>
+    <content>
+<![CDATA[
+<{show_block module='imagegallery' block='show_albums'
+	parent_id=${1:\$album_id}
+	merchant_id=${2:\$retailer.id}
+	merchant_only=${3:0}
+	featured=${4:0}
+	srch_tags="${5:tag1}"
+	search_order="${6:imggal_album_name asc}"
+	start=${7:0}
+	template_name="${8:block_show_albums}"
+}>
+]]>
+	</content>  
+    <tabTrigger>show_block_imagegallery</tabTrigger>    
+    <scope>text.html</scope>    
+    <description>Show albums - coreDNA</description>
+</snippet>
