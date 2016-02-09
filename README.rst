@@ -13,8 +13,11 @@ git clone git@bitbucket.org:bwiredintegration/sublime-text-snippets.git
 
 Directories can be found here
 
-Linux: /home/<YourUsername>/.config/sublime-text-3/Packages/User/
-Windows: C:\Users\<YourUsername>\AppData\Roaming\Sublime Text 3\Packages\User
+**Linux:** /home/<YourUsername>/.config/sublime-text-3/Packages/User/
+
+**Windows:**- C:/\Users/\<YourUsername>/\AppData/\Roaming/\Sublime Text 3/\Packages/\User
+
+
 
 How to Use
 ==========
