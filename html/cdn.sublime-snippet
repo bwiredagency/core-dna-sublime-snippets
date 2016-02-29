@@ -1,15 +1,11 @@
 <snippet>
     <content>
 <![CDATA[
-<{if $1 }>
-	$2
-<{else}>
-
-<{/if}>
+<{\$smarty.session.centre_asset_host}>
 ]]>
 	</content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>ifelse</tabTrigger>
+    <tabTrigger>cdn</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>text.html</scope>
     <!-- Optional: Description to show in the menu -->
