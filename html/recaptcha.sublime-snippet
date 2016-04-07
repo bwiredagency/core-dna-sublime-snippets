@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<{if \$use_recaptcha eq 'on'}>
+    <{if is_object(\$recaptcha)}>
+        <div class="captcha_wrapper">
+            <label class="captcha_label" for="captcha_code">Not a Bot?:<em>*</em></label>
+            <{\$recaptcha->show('captcha1')}>
+        </div>
+    <{/if}>
+<{/if}>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>captcha</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
