@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+<{******************}>
+<{** Page - with rich snippents
+** Remove unneccessary elements. Retain only the elements you need.
+** To add more rich snippets refer to-> https://developers.google.com/structured-data/rich-snippets/articles#article_markup_properties**}>
+<{if is_object($page)}>
+<div itemscope itemtype="http://schema.org/Article">
+	<meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="//<{\$smarty.session.centre_host}>news/<{\$item.news_url_name|@default:\$item.news_id}>"/>
+	<h2 itemprop="headline"><{$page->getName()}></h2>
+	<div itemprop="articleBody">
+		<{$page->getContent()|default:'<p>No Content.</p>'}>
+	</div>
+	<{if $page->getImage1() ne ""}>
+	<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+		<img src="http://<{$smarty.session.centre_host}>/web_images/pages/<{$page->getID()}>/<{$page->getImage1()}>" alt="<{$page->getName()}>"/>
+	</div>
+	<{/if}> 
+</div> 
+<{/if}>
+<{******************}>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>page_with_rich_snippets</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+	<description>Coredna Page module which supports google rich snippets</description>
+</snippet>
