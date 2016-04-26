@@ -48,7 +48,7 @@ href="/news/<{$item.news_cat_details[ncats].url_name|default:$item.news_cat_deta
 <{/if}>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>news_article</tabTrigger>
+	<tabTrigger>news_article_rich_snippets</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.html</scope>
 	<description>Coredna News module (news item) which supports google rich snippets</description>
