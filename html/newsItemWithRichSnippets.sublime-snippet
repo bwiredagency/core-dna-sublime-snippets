@@ -1,44 +1,45 @@
 <snippet>
 	<content><![CDATA[
+<{******************}>
 <{**News item - with rich snippents
 ** Remove unneccessary elements. Retain only the elements you need.
 ** To add more rich snippets refer to-> https://developers.google.com/structured-data/rich-snippets/articles#article_markup_properties**}>
-<{if $nid ne ''}>
+<{if \$nid ne ''}>
 <div itemscope itemtype="http://schema.org/NewsArticle">
-	<meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="https://google.com/article"/>
+	<meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="//<{\$smarty.session.centre_host}>news/<{\$item.news_url_name|@default:\$item.news_id}>"/>
 	<{assign var=item value=$news[0]}>
 	<article>
 		<h2 itemprop="headline">
-		<a href="/news/<{$item.news_url_name|@default:$item.news_id}><{if $item.news_streamed eq 'y'}>?stream=y<{/if}>">
-			<{$item.news_heading}>
+		<a href="/news/<{\$item.news_url_name|@default:\$item.news_id}><{if \$item.news_streamed eq 'y'}>?stream=y<{/if}>">
+			<{\$item.news_heading}>
 		</a>
 		</h2>
-		<p itemprop="datePublished"><{$item.timestamp|date_format:"%A, %e %B %Y"}></p>
-		<div itemprop="articleBody"><{$item.news_content}></div>
-		<{if $item.news_picture ne ''}>
+		<p itemprop="datePublished"><{\$item.timestamp|date_format:"%A, %e %B %Y"}></p>
+		<div itemprop="articleBody"><{\$item.news_content}></div>
+		<{if \$item.news_picture ne ''}>
 		<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<img src="<{$smarty.session.centre_asset_host}>/web_images/<{$item.news_picture}>" alt="<{$item.news_heading}>"/>
-			<meta itemprop="url" content="<{$smarty.session.centre_asset_host}>/web_images/<{$item.news_picture}>">
+			<img src="<{\$smarty.session.centre_asset_host}>/web_images/<{\$item.news_picture}>" alt="<{\$item.news_heading}>"/>
+			<meta itemprop="url" content="<{\$smarty.session.centre_asset_host}>/web_images/<{\$item.news_picture}>">
 		</div>
 		<{/if}>
-		<p>Caption: <span itemprop="description"></span><{$item.news_caption}></p>
-		<p>Other Link: <a href="<{$item.news_link_address}>"><{$item.news_link}></a></p>
-		<p>Tags: <span itemprop="keywords"><{$item.news_tag}></span></p>
-		<p>Stream: <{$item.news_streamed}> <{$item.news_streamed_module}></p>
+		<p>Caption: <span itemprop="description"></span><{\$item.news_caption}></p>
+		<p>Other Link: <a href="<{\$item.news_link_address}>"><{\$item.news_link}></a></p>
+		<p>Tags: <span itemprop="keywords"><{\$item.news_tag}></span></p>
+		<p>Stream: <{\$item.news_streamed}> <{\$item.news_streamed_module}></p>
 		<p>
 			Search Tags:
-			<{section name=ntags loop=$item.news_tag_arr}>
-			<{$item.news_tag_arr[ntags]}>
-			<{if !$smarty.section.ntags.last}>, <{/if}>
+			<{section name=ntags loop=\$item.news_tag_arr}>
+			<{\$item.news_tag_arr[ntags]}>
+			<{if !\$smarty.section.ntags.last}>, <{/if}>
 			<{/section}>
 		</p>
 		<p>
-			Categories: <{section name=ncats loop=$item.news_cat_details}>
+			Categories: <{section name=ncats loop=\$item.news_cat_details}>
 			<a
-			href="/news/<{$item.news_cat_details[ncats].url_name|default:$item.news_cat_details[ncats].cid}>/<{if $item.news_cat_details[ncats].streamed_modules ne ''}>attr/stream/y/<{/if}>"><{$item.news_cat_details[ncats].cname}></a>
-			<{if !$smarty.section.ncats.last}>, <{/if}><{/section}>
+			href="/news/<{\$item.news_cat_details[ncats].url_name|default:\$item.news_cat_details[ncats].cid}>/<{if \$item.news_cat_details[ncats].streamed_modules ne ''}>attr/stream/y/<{/if}>"><{\$item.news_cat_details[ncats].cname}></a>
+			<{if !\$smarty.section.ncats.last}>, <{/if}><{/section}>
 		</p>
-		<{if $item.news_streamed eq 'y'}>
+		<{if \$item.news_streamed eq 'y'}>
 		<p>
 			<i>Please note that news stream usually link to another module, see the other link.</i>
 		</p>
@@ -46,6 +47,7 @@
 	</article>
 </div>
 <{/if}>
+<{******************}>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>news_article_rich_snippets</tabTrigger>
