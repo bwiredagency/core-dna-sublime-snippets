@@ -1,9 +1,7 @@
 <snippet>
-	<content><![CDATA[
-<{$0|var_dump}>
-]]></content>
+	<content><![CDATA[<{${1:$SELECTION}|var_dump}>]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>dump</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<!-- <!--<scope>source.scss</scope>--> -->
 </snippet>

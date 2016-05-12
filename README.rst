@@ -1,8 +1,8 @@
 ================
-Sublime text snippets for CoreDNA
+Sublime text snippets for core dna
 ================
 
-This a library of useful snippets created for integrating and building for CoreDNA
+This a library of useful snippets created for integrating and building for core dna
 
 
 To Install
@@ -28,4 +28,4 @@ While you have a html document open type the snippet you would like to use for e
 
 You can cycle through variables by pressing tab again.
 
-To view a full list of all the available snippets press ctrl+shift+p and type in coredna
+To view a full list of all the available snippets press ctrl+shift+p and type in core dna

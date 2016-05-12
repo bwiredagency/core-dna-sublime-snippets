@@ -53,5 +53,5 @@
 	<tabTrigger>news_article_rich_snippets</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.html</scope>
-	<description>Coredna News module (news item) which supports google rich snippets</description>
+	<description>core dna News module (news item) which supports google rich snippets</description>
 </snippet>

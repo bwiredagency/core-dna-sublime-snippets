@@ -9,7 +9,7 @@
 	<key>foldingStopMarker</key>
 	<string>(&lt;/(?i:(head|table|tr|div|style|script|ul|ol|form|dl))&gt;|&lt;\{&lt;\{?/(if|foreach|capture|literal|foreach|php|section|strip)|(^|\s)\}&gt;)</string>
 	<key>name</key>
-	<string>Smarty (coreDNA)</string>
+	<string>Smarty (core dna)</string>
 	<key>patterns</key>
 	<array>
 		<dict>
