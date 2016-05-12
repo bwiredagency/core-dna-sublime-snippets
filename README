@@ -9,7 +9,8 @@ To Install
 ===============
 
 Clone the repo into your sublime text packages directory
-git clone git@bitbucket.org:bwiredintegration/sublime-text-snippets.git
+
+git clone https://github.com/bwiredagency/core-dna-sublime-snippets
 
 Directories can be found here
 
